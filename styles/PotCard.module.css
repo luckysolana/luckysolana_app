@@ -1,0 +1,141 @@
+.wrapper {
+  /* background-color: #302133; */
+  background-color: #2e213075;
+  min-height: 200px;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 2rem;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  margin-top: 40px;
+  /* background-size: 50%;
+  background-image: url("/images/raffle.png"); */
+}
+.textCenter {
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bolder;
+  /* color: #fff; */
+  /* color: #1515ef; */
+  color: #05f91a;
+  text-align: center;
+  /* margin-bottom: 20px; */
+}
+
+.pot {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  /* color: #fff; */
+  color: #f2f453;
+  text-align: center;
+  flex: 1;
+}
+
+.potAmount {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  /* color: #fff; */
+  color: #f2f453;
+  text-align: center;
+}
+
+.btn {
+  /* background-color: #261e28; */
+  background-color: #261e28ad;
+  
+  color: #f45358;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  place-self: center;
+  color: #f45358;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  border: 1px solid #f45358;
+}
+.ticketPrice {
+  margin-top: 0px;;
+  text-align: center;
+  color: cyan;
+  font-family: cursive;
+  font-style: italic;
+}
+
+.txLink {
+  font-family: cursive;
+  text-align: center;
+  font-weight: 400;
+  border-radius: 25px;
+  border-width: 0px;
+  background-color: rgb(255, 101, 214);
+  color: rgb(26, 26, 26);
+  border-color: rgb(0, 0, 0);
+  padding: 0.3ch;
+  }
+
+.txLink:hover {
+  text-align: center;
+  background-color: rgb(116, 255, 102);
+  color: rgb(26, 26, 26);
+  border-color: rgb(0, 0, 0);
+}
+
+.recentWinnerTitle {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  /* color: #fff; */
+  color: #05f91a;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.winner {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #fff;
+  text-align: center;
+}
+
+.textAccent {
+  /* color: #f45358; */
+  /* color: #f2f453; */
+  color: #05f91a;
+}
+
+.drawWinnerBtn {
+  background-color: #242833;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 20%;
+  border: 1px solid #f2505e;
+  border-radius: 1.2rem;
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  cursor: pointer;
+  color: #f2505e;
+}
+
+
+.lottie {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  pointer-events: none;
+}
